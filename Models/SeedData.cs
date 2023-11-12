@@ -27,6 +27,7 @@ public static class SeedData
                     Genre = "Romantic Comedy",
                     Price = 7.99M,
                     Rating = "R"
+                    
                 },
                 new Movie
                 {
@@ -34,7 +35,8 @@ public static class SeedData
                     ReleaseDate = DateTime.Parse("1984-3-13"),
                     Genre = "Comedy",
                     Price = 8.99M,
-                    Rating = "R",
+                    Rating = "R"
+                    
                 },
                 new Movie
                 {
@@ -43,6 +45,7 @@ public static class SeedData
                     Genre = "Comedy",
                     Price = 9.99M,
                     Rating = "R"
+                    
                 },
                 new Movie
                 {
@@ -51,6 +54,8 @@ public static class SeedData
                     Genre = "Western",
                     Price = 3.99M,
                     Rating = "R"
+                    
+                    
                 }
             );
             context.SaveChanges();
