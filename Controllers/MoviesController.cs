@@ -68,6 +68,12 @@ namespace MvcMovie.Controllers
                 return NotFound();
             }
 
+
+            // Adding code for multiple ImageUrls
+            var ImageUrl = movie.ImageUrl;
+            // Pass the URL(s) to the View
+            ViewData["ImageUrl"] = ImageUrl;
+
             return View(movie);
         }
 

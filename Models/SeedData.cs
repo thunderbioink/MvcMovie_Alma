@@ -22,42 +22,49 @@ public static class SeedData
             context.Movie.AddRange(
                 new Movie
                 {
-                    Title = "When Harry Met Sally",
-                    ReleaseDate = DateTime.Parse("1989-2-12"),
-                    Genre = "Romantic Comedy",
+                    Title = "The R.M.",
+                    ReleaseDate = DateTime.Parse("2003-1-31"),
+                    Genre = "Comedy",
                     Price = 7.99M,
-                    Rating = "R"
-                    
+                    Rating = "PG",
+                    ImageUrl = "https://www.churchofjesuschrist.org/imgs/f534f074cc36343cc0e77c8aae0849729514bebf/full/500%2C/0/default"
+
                 },
                 new Movie
                 {
-                    Title = "Ghostbusters ",
-                    ReleaseDate = DateTime.Parse("1984-3-13"),
-                    Genre = "Comedy",
+                    Title = "The Other Side of Heaven",
+                    ReleaseDate = DateTime.Parse("2001-12-14"),
+                    Genre = "Drama",
                     Price = 8.99M,
-                    Rating = "R"
-                    
+                    Rating = "PG",
+                    ImageUrl = "https://cc-prod.scene7.com/is/image/CCProdAuthor/What-is-Stock-Photography_P1_mobile?$pjpeg$&jpegSize=100&wid=599"
+
+
                 },
                 new Movie
                 {
-                    Title = "Ghostbusters 2",
-                    ReleaseDate = DateTime.Parse("1986-2-23"),
-                    Genre = "Comedy",
+                    Title = "Meet the Mormons",
+                    ReleaseDate = DateTime.Parse("2014-10-10"),
+                    Genre = "Documentary",
                     Price = 9.99M,
-                    Rating = "R"
-                    
+                    Rating = "PG",
+                    ImageUrl = "https://cc-prod.scene7.com/is/image/CCProdAuthor/What-is-Stock-Photography_P1_mobile?$pjpeg$&jpegSize=100&wid=599"
+
+
                 },
                 new Movie
                 {
-                    Title = "Rio Bravo",
-                    ReleaseDate = DateTime.Parse("1959-4-15"),
-                    Genre = "Western",
+                    Title = "The Best Two Years",
+                    ReleaseDate = DateTime.Parse("2004-2-20"),
+                    Genre = "Comedy",
                     Price = 3.99M,
-                    Rating = "R"
-                    
-                    
+                    Rating = "PG",
+                    ImageUrl = "https://cc-prod.scene7.com/is/image/CCProdAuthor/What-is-Stock-Photography_P1_mobile?$pjpeg$&jpegSize=100&wid=599"
+
+
+
                 }
-            );
+            ); ;
             context.SaveChanges();
         }
     }
